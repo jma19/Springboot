@@ -1,6 +1,5 @@
 package com.im.server.Interceptor;
 
-import org.h2.engine.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
