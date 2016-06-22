@@ -19,6 +19,7 @@ public class SimpleCORSFilter implements Filter {
         response.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
         chain.doFilter(req, res);
     }
+
     @Override
     public void init(FilterConfig filterConfig) {
     }
